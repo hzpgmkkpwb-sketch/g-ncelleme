@@ -13,8 +13,5 @@ android.minapi = 21
 android.archs = arm64-v8a,armeabi-v7a
 android.accept_sdk_license = True
 
-# Kritik İzinler ve Servis Tanımları
+# Kritik İzinler
 android.permissions = INTERNET, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE, RECEIVE_BOOT_COMPLETED, FOREGROUND_SERVICE
-
-# Arka plan servisi ve açılışta tetiklenme (Broadcast Receiver)
-android.service = True
